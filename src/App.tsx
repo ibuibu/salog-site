@@ -4,6 +4,7 @@ import screen_many from './assets/screen_many.png';
 import screen_stamp from './assets/screen_stamp.png';
 import screen_log from './assets/screen_log.png';
 import screen_check from './assets/screen_check.png';
+import oji_logo from './assets/oji_logo.svg';
 
 function App() {
   return (
@@ -11,14 +12,21 @@ function App() {
       <section className="p-8 md:p-12">
         <>
           <div className="md:flex md:justify-center">
-            <img
-              src={screen_map}
-              className="hidden md:block md:h-120 md:m-8"
-            ></img>
+            <img src={screen_map} className="hidden md:block md:h-120 md:m-8" />
             <div className="md:m-8 md:flex items-center">
               <div>
-                <img src={logo_svg} className="h-40 inline"></img>
-                <h1 className="text-xl md:text-3xl md:m-4">
+                <div className="flex flex-col">
+                  <img src={logo_svg} className="h-40 inline md:block" />
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://ojisauna.com"
+                    className="md:block"
+                  >
+                    <img src={oji_logo} className="h-6 inline" />
+                  </a>
+                </div>
+                <h1 className="text-xl m-8 md:text-3xl md:m-8">
                   かんたんサウナ記録アプリ
                 </h1>
                 <p className="text-sm md:text-base m-4">

@@ -26,7 +26,7 @@ function App() {
                     <img src={oji_logo} className="h-6 inline" />
                   </a>
                 </div>
-                <h1 className="text-xl m-8 md:text-3xl md:m-8">
+                <h1 className="text-xl mx-2 my-8 md:text-3xl md:m-8">
                   かんたんサウナ記録アプリ
                 </h1>
                 <p className="text-sm md:text-base m-4">

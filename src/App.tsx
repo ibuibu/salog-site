@@ -145,9 +145,16 @@ function App() {
           </p>
         </>
       </section>
-      {/* <section className="p-12 bg-salog-pink text-white">
-        <h1 className="text-3xl font-bold">さあ、サログをはじめよう</h1>
-      </section> */}
+      <section className="p-12 bg-salog-pink text-white">
+        {/* <h1 className="text-3xl font-bold">さあ、サログをはじめよう</h1> */}
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://ojisauna.com"
+        >
+          © 2020 Tokyo Ojisauna
+        </a>
+      </section>
     </main>
   );
 }

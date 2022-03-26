@@ -46,12 +46,12 @@ function App() {
         <>
           <h1 className="text-4xl mb-8 font-bold">使い方</h1>
           <div className="md:flex md:justify-around">
-            <div className="m-auto w-56">
+            <div className="mx-auto w-56">
               <p className="text-2xl m-4 font-bold">探す</p>
               <img src={screen_map}></img>
               <p className="text-base mt-4 mb-12">地図からサウナを探そう！</p>
             </div>
-            <div className="m-auto w-56">
+            <div className="mx-auto w-56">
               <p className="text-2xl m-4 font-bold">チェックイン</p>
               <img src={screen_check}></img>
               <p className="text-base mt-4 mb-12">
@@ -60,7 +60,7 @@ function App() {
                 チェックインボタンをタップ！
               </p>
             </div>
-            <div className="m-auto w-56">
+            <div className="mx-auto w-56">
               <p className="text-2xl m-4 font-bold">サログを確認</p>
               <img src={screen_log}></img>
               <p className="text-base mt-4 mb-12">

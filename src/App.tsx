@@ -15,7 +15,7 @@ function App() {
               src={screen_map}
               className="hidden md:block md:h-120 md:m-8"
             ></img>
-            <div className="md:m-8 flex items-center">
+            <div className="md:m-8 md:flex items-center">
               <div>
                 <img src={logo_svg} className="h-40 inline"></img>
                 <h1 className="text-xl md:text-3xl md:m-4">
@@ -68,9 +68,9 @@ function App() {
         <>
           <h1 className="text-4xl mb-8 font-bold">特徴</h1>
           {/* md */}
-          <div className="hidden md:block flex justify-center my-8">
-            <div className="m-auto w-56">
-              <img src={screen_many} className="h-110 mx-20"></img>
+          <div className="hidden md:block md:flex md:justify-center my-8">
+            <div className="m-8 w-56">
+              <img src={screen_many} className="h-110"></img>
             </div>
             <div className="mx-8 my-16">
               <h1 className="text-3xl font-bold">
@@ -79,7 +79,7 @@ function App() {
               <p className="m-4 text-lg">エリアは順次拡大中！</p>
             </div>
           </div>
-          <div className="hidden md:block flex justify-center my-8">
+          <div className="hidden md:block md:flex md:justify-center my-8">
             <div className="mx-8 my-16">
               <h1 className="text-3xl font-bold">スタンプラリー</h1>
               <p className="m-4 text-lg">
@@ -88,8 +88,8 @@ function App() {
                 近くのサウナを制覇しよう。
               </p>
             </div>
-            <div className="m-auto w-56">
-              <img src={screen_stamp} className="h-110 mx-20"></img>
+            <div className="w-56">
+              <img src={screen_stamp} className="h-110"></img>
             </div>
           </div>
           {/* sm */}

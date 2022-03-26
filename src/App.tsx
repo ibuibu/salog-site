@@ -134,7 +134,7 @@ function App() {
             rel="noopener noreferrer"
             target="_blank"
             href="https://www.youtube.com/channel/UCODZPiTbUd8-kU6ijSR6eTg?app=desktop"
-            className="text-lg font-bold"
+            className="text-lg font-bold underline"
           >
             サログさん
           </a>

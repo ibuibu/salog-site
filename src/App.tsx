@@ -152,7 +152,7 @@ function App() {
           target="_blank"
           href="https://ojisauna.com"
         >
-          © 2020 Tokyo Ojisauna
+          © 2022 Tokyo Ojisauna
         </a>
       </section>
     </main>

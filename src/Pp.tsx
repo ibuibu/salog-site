@@ -89,8 +89,9 @@ export const Pp = () => {
         <div className="m-4">
           <h2 className="font-bold">６．お問い合わせ</h2>
           <p>
-            当社のプライバシーポリシーに関する、ご意見、ご質問、苦情の申出その他ユーザー情報の取扱いに関するお問い合わせは、以下の窓口にご連絡ください。
+            当社のプライバシーポリシーに関する、ご意見、ご質問、苦情の申出その他ユーザー情報の取扱いに関するお問い合わせは、以下のメールアドレス宛にご連絡ください。
           </p>
+          <p>ojisauna@gmail.com</p>
         </div>
         <div className="m-4">
           <h2 className="font-bold">７．改定</h2>

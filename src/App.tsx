@@ -1,10 +1,10 @@
-import logo_svg from './assets/full_logo.svg';
-import screen_map from './assets/screen_map.png';
-import screen_many from './assets/screen_many.png';
-import screen_stamp from './assets/screen_stamp.png';
-import screen_log from './assets/screen_log.png';
-import screen_check from './assets/screen_check.png';
-import oji_logo from './assets/oji_logo.svg';
+import logo_svg from "./assets/full_logo.svg";
+import screen_map from "./assets/screen_map.png";
+import screen_many from "./assets/screen_many.png";
+import screen_stamp from "./assets/screen_stamp.png";
+import screen_log from "./assets/screen_log.png";
+import screen_check from "./assets/screen_check.png";
+import oji_logo from "./assets/oji_logo.svg";
 
 function App() {
   return (
@@ -147,10 +147,14 @@ function App() {
       </section>
       <section className="p-12 bg-salog-pink text-white">
         {/* <h1 className="text-3xl font-bold">さあ、サログをはじめよう</h1> */}
+        <div className="text-lg m-4">
+          <a href="mailto:ojisauna@gmail.com">お問い合わせ ✉️</a>
+        </div>
         <a
           rel="noopener noreferrer"
           target="_blank"
           href="https://ojisauna.com"
+          className="text-sm"
         >
           © 2022 Tokyo Ojisauna
         </a>

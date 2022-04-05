@@ -34,9 +34,22 @@ function App() {
                   <br />
                   サウナの記録をかんたんに残そう
                 </p>
-                <p className="mt-12 text-salog-pink font-bold text-md md:text-lg">
-                  ただいまアプリ申請中・・・！！！
-                </p>
+                <div className="flex items-center">
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://play.google.com/store/apps/details?id=com.ojisauna.salog&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                  >
+                    <img
+                      className="w-50 md:w-60"
+                      alt="Google Play で手に入れよう"
+                      src="https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png"
+                    />
+                  </a>
+                  <p className="text-salog-pink font-bold text-sm md:text-sm">
+                    iOSは現在申請中！！！
+                  </p>
+                </div>
               </div>
             </div>
           </div>

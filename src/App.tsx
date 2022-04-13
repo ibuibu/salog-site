@@ -5,6 +5,7 @@ import screen_stamp from "./assets/screen_stamp.png";
 import screen_log from "./assets/screen_log.png";
 import screen_check from "./assets/screen_check.png";
 import oji_logo from "./assets/oji_logo.svg";
+import ios_store from "./assets/ios_store.svg";
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
                   <br />
                   サウナの記録をかんたんに残そう
                 </p>
-                <div className="flex items-center">
+                <div className="flex items-center justify-center">
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
@@ -46,9 +47,17 @@ function App() {
                       src="https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png"
                     />
                   </a>
-                  <p className="text-salog-pink font-bold text-sm md:text-sm">
-                    iOSは現在申請中！！！
-                  </p>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://apps.apple.com/jp/app/%E3%82%B5%E3%83%AD%E3%82%B0/id1615929650"
+                  >
+                    <img
+                      className="w-37 md:w-43"
+                      alt="App Storeからダウンロード"
+                      src={ios_store}
+                    />
+                  </a>
                 </div>
               </div>
             </div>
